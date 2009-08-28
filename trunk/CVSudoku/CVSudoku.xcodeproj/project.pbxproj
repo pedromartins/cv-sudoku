@@ -10,12 +10,40 @@
 		EB86EB041048052200149485 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EB86EB191048069200149485 /* CVSudoku.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = CVSudoku.1; sourceTree = "<group>"; };
 		EB86EB2E1048078200149485 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		EB86EBC510480E2800149485 /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cv.h; path = /opt/local/include/opencv/cv.h; sourceTree = "<absolute>"; };
+		EB86EBC610480E2800149485 /* cv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cv.hpp; path = /opt/local/include/opencv/cv.hpp; sourceTree = "<absolute>"; };
+		EB86EBC710480E2800149485 /* cvaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvaux.h; path = /opt/local/include/opencv/cvaux.h; sourceTree = "<absolute>"; };
+		EB86EBC810480E2800149485 /* cvaux.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvaux.hpp; path = /opt/local/include/opencv/cvaux.hpp; sourceTree = "<absolute>"; };
+		EB86EBC910480E2800149485 /* cvcompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvcompat.h; path = /opt/local/include/opencv/cvcompat.h; sourceTree = "<absolute>"; };
+		EB86EBCA10480E2800149485 /* cvhaartraining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvhaartraining.h; path = /opt/local/include/opencv/cvhaartraining.h; sourceTree = "<absolute>"; };
+		EB86EBCB10480E2800149485 /* cvmat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvmat.hpp; path = /opt/local/include/opencv/cvmat.hpp; sourceTree = "<absolute>"; };
+		EB86EBCC10480E2800149485 /* cvtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvtypes.h; path = /opt/local/include/opencv/cvtypes.h; sourceTree = "<absolute>"; };
+		EB86EBCD10480E2800149485 /* cvver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvver.h; path = /opt/local/include/opencv/cvver.h; sourceTree = "<absolute>"; };
+		EB86EBCE10480E2800149485 /* cvvidsurv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvvidsurv.hpp; path = /opt/local/include/opencv/cvvidsurv.hpp; sourceTree = "<absolute>"; };
+		EB86EBCF10480E2800149485 /* cxcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxcore.h; path = /opt/local/include/opencv/cxcore.h; sourceTree = "<absolute>"; };
+		EB86EBD010480E2800149485 /* cxcore.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cxcore.hpp; path = /opt/local/include/opencv/cxcore.hpp; sourceTree = "<absolute>"; };
+		EB86EBD110480E2800149485 /* cxerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxerror.h; path = /opt/local/include/opencv/cxerror.h; sourceTree = "<absolute>"; };
+		EB86EBD210480E2800149485 /* cxmisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxmisc.h; path = /opt/local/include/opencv/cxmisc.h; sourceTree = "<absolute>"; };
+		EB86EBD310480E2800149485 /* cxtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxtypes.h; path = /opt/local/include/opencv/cxtypes.h; sourceTree = "<absolute>"; };
+		EB86EBD410480E2800149485 /* highgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = highgui.h; path = /opt/local/include/opencv/highgui.h; sourceTree = "<absolute>"; };
+		EB86EBD510480E2800149485 /* ml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ml.h; path = /opt/local/include/opencv/ml.h; sourceTree = "<absolute>"; };
+		EB86EC16104810DD00149485 /* libcv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcv.dylib; path = /opt/local/lib/libcv.dylib; sourceTree = "<absolute>"; };
+		EB86EC171048111800149485 /* libhighgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhighgui.dylib; path = /opt/local/lib/libhighgui.dylib; sourceTree = "<absolute>"; };
+		EB86EC2C104812FC00149485 /* squares.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = squares.c; sourceTree = "<group>"; };
+		EB86EC5B1048134300149485 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
+		EB86EC5C1048134300149485 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic2.png; sourceTree = "<group>"; };
+		EB86EC5D1048134300149485 /* pic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic3.png; sourceTree = "<group>"; };
+		EB86EC5E1048134300149485 /* pic4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic4.png; sourceTree = "<group>"; };
+		EB86EC5F1048134300149485 /* pic5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic5.png; sourceTree = "<group>"; };
+		EB86EC601048134300149485 /* pic6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		EB86EAE61048050300149485 = {
 			isa = PBXGroup;
 			children = (
+				EB86EC5A1048132A00149485 /* Resources */,
+				EB86EBC310480DF600149485 /* Libraries */,
 				EB86EB1A1048069500149485 /* Source */,
 				EB86EB1B1048069C00149485 /* Documentation */,
 			);
@@ -24,6 +52,7 @@
 		EB86EB1A1048069500149485 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				EB86EC2C104812FC00149485 /* squares.c */,
 				EB86EB2E1048078200149485 /* Makefile */,
 				EB86EB041048052200149485 /* main.c */,
 			);
@@ -36,6 +65,53 @@
 				EB86EB191048069200149485 /* CVSudoku.1 */,
 			);
 			name = Documentation;
+			sourceTree = "<group>";
+		};
+		EB86EBC310480DF600149485 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EB86EC171048111800149485 /* libhighgui.dylib */,
+				EB86EC16104810DD00149485 /* libcv.dylib */,
+				EB86EBC410480DFB00149485 /* OpenCV */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		EB86EBC410480DFB00149485 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				EB86EBC510480E2800149485 /* cv.h */,
+				EB86EBC610480E2800149485 /* cv.hpp */,
+				EB86EBC710480E2800149485 /* cvaux.h */,
+				EB86EBC810480E2800149485 /* cvaux.hpp */,
+				EB86EBC910480E2800149485 /* cvcompat.h */,
+				EB86EBCA10480E2800149485 /* cvhaartraining.h */,
+				EB86EBCB10480E2800149485 /* cvmat.hpp */,
+				EB86EBCC10480E2800149485 /* cvtypes.h */,
+				EB86EBCD10480E2800149485 /* cvver.h */,
+				EB86EBCE10480E2800149485 /* cvvidsurv.hpp */,
+				EB86EBCF10480E2800149485 /* cxcore.h */,
+				EB86EBD010480E2800149485 /* cxcore.hpp */,
+				EB86EBD110480E2800149485 /* cxerror.h */,
+				EB86EBD210480E2800149485 /* cxmisc.h */,
+				EB86EBD310480E2800149485 /* cxtypes.h */,
+				EB86EBD410480E2800149485 /* highgui.h */,
+				EB86EBD510480E2800149485 /* ml.h */,
+			);
+			name = OpenCV;
+			sourceTree = "<group>";
+		};
+		EB86EC5A1048132A00149485 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB86EC5B1048134300149485 /* pic1.png */,
+				EB86EC5C1048134300149485 /* pic2.png */,
+				EB86EC5D1048134300149485 /* pic3.png */,
+				EB86EC5E1048134300149485 /* pic4.png */,
+				EB86EC5F1048134300149485 /* pic5.png */,
+				EB86EC601048134300149485 /* pic6.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

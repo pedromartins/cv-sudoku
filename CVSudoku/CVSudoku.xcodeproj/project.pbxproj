@@ -16,7 +16,6 @@
 		EB86EAE61048050300149485 = {
 			isa = PBXGroup;
 			children = (
-				EB86EB1F104806D200149485 /* Libraries */,
 				EB86EB1A1048069500149485 /* Source */,
 				EB86EB1B1048069C00149485 /* Documentation */,
 			);
@@ -39,14 +38,23 @@
 			name = Documentation;
 			sourceTree = "<group>";
 		};
-		EB86EB1F104806D200149485 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		EB86EB80104809D600149485 /* CVSudoku */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = EB86EB8410480A0000149485 /* Build configuration list for PBXLegacyTarget "CVSudoku" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/gnumake;
+			dependencies = (
+			);
+			name = CVSudoku;
+			passBuildSettingsInEnvironment = 1;
+			productName = CVSudoku;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXProject section */
 		EB86EAE81048050300149485 /* Project object */ = {
@@ -58,6 +66,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				EB86EB80104809D600149485 /* CVSudoku */,
 			);
 		};
 /* End PBXProject section */
@@ -77,6 +86,27 @@
 			};
 			name = Release;
 		};
+		EB86EB81104809D700149485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = CVSudoku;
+			};
+			name = Debug;
+		};
+		EB86EB82104809D700149485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = CVSudoku;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -85,6 +115,15 @@
 			buildConfigurations = (
 				EB86EAE91048050300149485 /* Debug */,
 				EB86EAEA1048050300149485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB86EB8410480A0000149485 /* Build configuration list for PBXLegacyTarget "CVSudoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB86EB81104809D700149485 /* Debug */,
+				EB86EB82104809D700149485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

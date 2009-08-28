@@ -8,14 +8,32 @@
 
 /* Begin PBXFileReference section */
 		EB86EB041048052200149485 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EB86EB191048069200149485 /* CVSudoku.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = CVSudoku.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		EB86EAE61048050300149485 = {
 			isa = PBXGroup;
 			children = (
+				EB86EB1A1048069500149485 /* Source */,
+				EB86EB1B1048069C00149485 /* Documentation */,
+			);
+			sourceTree = "<group>";
+		};
+		EB86EB1A1048069500149485 /* Source */ = {
+			isa = PBXGroup;
+			children = (
 				EB86EB041048052200149485 /* main.c */,
 			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		EB86EB1B1048069C00149485 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				EB86EB191048069200149485 /* CVSudoku.1 */,
+			);
+			name = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

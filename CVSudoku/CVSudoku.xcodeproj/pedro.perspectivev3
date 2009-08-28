@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -302,7 +300,7 @@
 							<real>163</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 115 1280 663 0 0 1280 778 </string>
+						<string>-9 115 1280 663 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -330,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>EB86EB9610480A9B00149485</string>
+										<string>EB86EB9910480BCB00149485</string>
 										<key>history</key>
 										<array>
 											<string>EB86EB20104806F200149485</string>
@@ -368,7 +366,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1073, 432}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 115 1280 663 0 0 1280 778 </string>
+								<string>-9 115 1280 663 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -392,8 +390,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1073, 158}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 115 1280 663 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -415,6 +411,8 @@
 									<string>PBXProjectFindModule</string>
 								</dict>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXCVSModuleFilterTypeKey</key>
@@ -423,7 +421,7 @@
 										<dict>
 											<key>PBXCVSModuleTreeModuleColumnWidthsKey</key>
 											<array>
-												<real>200</real>
+												<real>655</real>
 												<real>56.66162109375</real>
 												<real>63</real>
 												<real>60</real>
@@ -448,7 +446,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {598, 122}}</string>
+										<string>{{10, 27}, {1073, 158}}</string>
+										<key>RubberWindowFrame</key>
+										<string>-9 115 1280 663 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXCVSModule</string>
@@ -687,7 +687,7 @@
 		<string>/Users/pedro/Projects/4in4/CVSudoku/CVSudoku.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 115 1280 663 0 0 1280 778 </string>
+	<string>-9 115 1280 663 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

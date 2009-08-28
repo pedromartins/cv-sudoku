@@ -4,7 +4,7 @@ CXX = g++
 SYSTEM = $(shell uname -s)
 
 ifeq ($(SYSTEM),Darwin)
-	LINKFLAGS = -I /opt/local/include/opencv/ -L/opt/local/lib/ -lcv -lhighgui -lcxcore
+	LINKFLAGS = `/opt/local/bin/pkg-config --cflags --libs opencv`
 	DEFINE = -D _DARWIN_
 else ifeq ($(SYSTEM),Linux)
 	OPENCV = `pkg-config --cflags --libs opencv`

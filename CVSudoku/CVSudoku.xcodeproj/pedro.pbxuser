@@ -32,7 +32,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					359,
+					834,
 					20,
 					48,
 					43,
@@ -78,7 +78,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					319,
+					794,
 					60,
 					20,
 					48,
@@ -152,6 +152,7 @@
 			EB86EB8D10480A5100149485 /* PBXTextBookmark */ = EB86EB8D10480A5100149485 /* PBXTextBookmark */;
 			EB86EB8E10480A5100149485 /* PBXTextBookmark */ = EB86EB8E10480A5100149485 /* PBXTextBookmark */;
 			EB86EB9210480A5400149485 /* PBXTextBookmark */ = EB86EB9210480A5400149485 /* PBXTextBookmark */;
+			EB86EB9610480A9B00149485 /* PBXTextBookmark */ = EB86EB9610480A9B00149485 /* PBXTextBookmark */;
 		};
 		sourceControlManager = EB86EAEC1048050300149485 /* Source Control */;
 		userBuildSettings = {
@@ -347,9 +348,9 @@
 	};
 	EB86EB2E1048078200149485 /* Makefile */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {537, 422}}";
-			sepNavSelRange = "{494, 0}";
-			sepNavVisRange = "{0, 523}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 400}}";
+			sepNavSelRange = "{191, 0}";
+			sepNavVisRange = "{0, 502}";
 		};
 	};
 	EB86EB2F1048078A00149485 /* PBXTextBookmark */ = {
@@ -473,7 +474,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 9";
 		rLen = 0;
-		rLoc = 178;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 535;
 		vrLoc = 0;
@@ -483,7 +484,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 9";
 		rLen = 0;
-		rLoc = 178;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 1;
@@ -493,7 +494,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 9";
 		rLen = 0;
-		rLoc = 178;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 0;
@@ -503,7 +504,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 9";
 		rLen = 0;
-		rLoc = 178;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 0;
@@ -513,7 +514,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 9";
 		rLen = 0;
-		rLoc = 178;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 342;
 		vrLoc = 26;
@@ -523,7 +524,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 11";
 		rLen = 0;
-		rLoc = 244;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 496;
 		vrLoc = 0;
@@ -561,7 +562,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 11";
 		rLen = 0;
-		rLoc = 244;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 496;
 		vrLoc = 0;
@@ -591,7 +592,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 11";
 		rLen = 0;
-		rLoc = 244;
+		rLoc = 223;
 		rType = 0;
 		vrLen = 496;
 		vrLoc = 0;
@@ -611,7 +612,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 21";
 		rLen = 0;
-		rLoc = 495;
+		rLoc = 474;
 		rType = 0;
 		vrLen = 519;
 		vrLoc = 26;
@@ -621,7 +622,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 10";
 		rLen = 0;
-		rLoc = 209;
+		rLoc = 188;
 		rType = 0;
 		vrLen = 510;
 		vrLoc = 53;
@@ -641,7 +642,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 21";
 		rLen = 0;
-		rLoc = 495;
+		rLoc = 474;
 		rType = 0;
 		vrLen = 519;
 		vrLoc = 26;
@@ -661,7 +662,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 10";
 		rLen = 0;
-		rLoc = 209;
+		rLoc = 188;
 		rType = 0;
 		vrLen = 510;
 		vrLoc = 53;
@@ -681,7 +682,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 9";
 		rLen = 0;
-		rLoc = 178;
+		rLoc = 157;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 26;
@@ -732,7 +733,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 10";
 		rLen = 0;
-		rLoc = 209;
+		rLoc = 188;
 		rType = 0;
 		vrLen = 332;
 		vrLoc = 53;
@@ -752,7 +753,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 20";
 		rLen = 0;
-		rLoc = 494;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 523;
 		vrLoc = 0;
@@ -772,7 +773,7 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 20";
 		rLen = 0;
-		rLoc = 494;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 237;
 		vrLoc = 259;
@@ -782,9 +783,19 @@
 		fRef = EB86EB2E1048078200149485 /* Makefile */;
 		name = "Makefile: 20";
 		rLen = 0;
-		rLoc = 494;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 523;
+		vrLoc = 0;
+	};
+	EB86EB9610480A9B00149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB2E1048078200149485 /* Makefile */;
+		name = "Makefile: 9";
+		rLen = 0;
+		rLoc = 191;
+		rType = 0;
+		vrLen = 502;
 		vrLoc = 0;
 	};
 }

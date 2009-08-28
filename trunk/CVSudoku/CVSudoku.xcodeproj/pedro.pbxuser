@@ -68,6 +68,28 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					324,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
 			PBXPerProjectTemplateStateSaveDate = 273155331;
 			PBXWorkspaceStateSaveDate = 273155331;
 		};
@@ -77,6 +99,17 @@
 			EB86EB171048067900149485 /* PBXTextBookmark */ = EB86EB171048067900149485 /* PBXTextBookmark */;
 			EB86EB181048067900149485 /* PBXTextBookmark */ = EB86EB181048067900149485 /* PBXTextBookmark */;
 			EB86EB1E104806B000149485 /* PBXTextBookmark */ = EB86EB1E104806B000149485 /* PBXTextBookmark */;
+			EB86EB20104806F200149485 /* PBXTextBookmark */ = EB86EB20104806F200149485 /* PBXTextBookmark */;
+			EB86EB21104806F200149485 /* PBXTextBookmark */ = EB86EB21104806F200149485 /* PBXTextBookmark */;
+			EB86EB22104806F200149485 /* PBXTextBookmark */ = EB86EB22104806F200149485 /* PBXTextBookmark */;
+			EB86EB23104806F200149485 /* PBXTextBookmark */ = EB86EB23104806F200149485 /* PBXTextBookmark */;
+			EB86EB24104806F200149485 /* PBXTextBookmark */ = EB86EB24104806F200149485 /* PBXTextBookmark */;
+			EB86EB261048076D00149485 /* PBXTextBookmark */ = EB86EB261048076D00149485 /* PBXTextBookmark */;
+			EB86EB271048076D00149485 /* PBXTextBookmark */ = EB86EB271048076D00149485 /* PBXTextBookmark */;
+			EB86EB291048076D00149485 /* PBXTextBookmark */ = EB86EB291048076D00149485 /* PBXTextBookmark */;
+			EB86EB2A1048076D00149485 /* PBXTextBookmark */ = EB86EB2A1048076D00149485 /* PBXTextBookmark */;
+			EB86EB2F1048078A00149485 /* PBXTextBookmark */ = EB86EB2F1048078A00149485 /* PBXTextBookmark */;
+			EB86EB321048078C00149485 /* PBXTextBookmark */ = EB86EB321048078C00149485 /* PBXTextBookmark */;
 		};
 		sourceControlManager = EB86EAEC1048050300149485 /* Source Control */;
 		userBuildSettings = {
@@ -96,9 +129,9 @@
 	};
 	EB86EB041048052200149485 /* main.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {542, 180}}";
-			sepNavSelRange = "{117, 0}";
-			sepNavVisRange = "{0, 145}";
+			sepNavIntBoundsRect = "{{0, 0}, {542, 178}}";
+			sepNavSelRange = "{38, 0}";
+			sepNavVisRange = "{0, 146}";
 		};
 	};
 	EB86EB0B104805AC00149485 /* PBXTextBookmark */ = {
@@ -106,7 +139,7 @@
 		fRef = EB86EB041048052200149485 /* main.c */;
 		name = "main.c: 1";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 1;
 		rType = 0;
 		vrLen = 137;
 		vrLoc = 0;
@@ -116,7 +149,7 @@
 		fRef = EB86EB041048052200149485 /* main.c */;
 		name = "main.c: 1";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 1;
 		rType = 0;
 		vrLen = 137;
 		vrLoc = 0;
@@ -126,7 +159,7 @@
 		fRef = EB86EB041048052200149485 /* main.c */;
 		name = "main.c: 5";
 		rLen = 0;
-		rLoc = 117;
+		rLoc = 118;
 		rType = 0;
 		vrLen = 145;
 		vrLoc = 0;
@@ -136,19 +169,156 @@
 		fRef = EB86EB041048052200149485 /* main.c */;
 		name = "main.c: 5";
 		rLen = 0;
-		rLoc = 117;
+		rLoc = 118;
 		rType = 0;
 		vrLen = 145;
 		vrLoc = 0;
+	};
+	EB86EB191048069200149485 /* CVSudoku.1 */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 1008}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1306}";
+		};
 	};
 	EB86EB1E104806B000149485 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = EB86EB041048052200149485 /* main.c */;
 		name = "main.c: 5";
 		rLen = 0;
-		rLoc = 117;
+		rLoc = 118;
 		rType = 0;
 		vrLen = 145;
 		vrLoc = 0;
+	};
+	EB86EB20104806F200149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB191048069200149485 /* CVSudoku.1 */;
+		name = "CVSudoku.1: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 0;
+	};
+	EB86EB21104806F200149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB041048052200149485 /* main.c */;
+		name = "main.c: 8";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 0;
+	};
+	EB86EB22104806F200149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB041048052200149485 /* main.c */;
+		name = "main.c: 8";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 0;
+	};
+	EB86EB23104806F200149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB191048069200149485 /* CVSudoku.1 */;
+		name = "CVSudoku.1: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 0;
+	};
+	EB86EB24104806F200149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB041048052200149485 /* main.c */;
+		name = "main.c: 3";
+		rLen = 0;
+		rLoc = 20;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 0;
+	};
+	EB86EB261048076D00149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB041048052200149485 /* main.c */;
+		name = "main.c: 4";
+		rLen = 0;
+		rLoc = 38;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 0;
+	};
+	EB86EB271048076D00149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB281048076D00149485 /* squares.c */;
+		rLen = 0;
+		rLoc = 2147483647;
+		rType = 0;
+	};
+	EB86EB281048076D00149485 /* squares.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = squares.c;
+		path = /opt/local/share/opencv/samples/c/squares.c;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {542, 3276}}";
+			sepNavSelRange = "{180, 0}";
+			sepNavVisRange = "{42, 551}";
+		};
+	};
+	EB86EB291048076D00149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB041048052200149485 /* main.c */;
+		name = "main.c: 4";
+		rLen = 0;
+		rLoc = 38;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 0;
+	};
+	EB86EB2A1048076D00149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB2B1048076D00149485 /* squares.c */;
+		name = "squares.c: 10";
+		rLen = 0;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 42;
+	};
+	EB86EB2B1048076D00149485 /* squares.c */ = {
+		isa = PBXFileReference;
+		name = squares.c;
+		path = /opt/local/share/opencv/samples/c/squares.c;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {542, 3276}}";
+			sepNavSelRange = "{180, 0}";
+			sepNavVisRange = "{42, 551}";
+		};
+	};
+	EB86EB2F1048078A00149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB281048076D00149485 /* squares.c */;
+		name = "squares.c: 10";
+		rLen = 0;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 42;
+	};
+	EB86EB321048078C00149485 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB86EB2B1048076D00149485 /* squares.c */;
+		name = "squares.c: 10";
+		rLen = 0;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 42;
 	};
 }

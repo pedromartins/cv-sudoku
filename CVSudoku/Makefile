@@ -11,15 +11,12 @@ else ifeq ($(SYSTEM),Linux)
 	LINKFLAGS = -I /usr/include/opencv/ -L /usr/lib/ -lcv -lhighgui -lcxcore
 endif
 
-BINOBJECT = main.o squares.o
+BINOBJECT = main.o
 $(BIN): $(BINOBJECT); 
 	$(CXX) $^ -o $(BIN) $(DEFINE) $(LINKFLAGS) 
 	rm *.o
 	
 main.o : main.c
-	$(CXX) -c $< -o $@ $(DEFINE) $(LINKFLAGS)
-	
-squares.o: squares.c
 	$(CXX) -c $< -o $@ $(DEFINE) $(LINKFLAGS)
 
 clean :

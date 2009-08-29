@@ -1,6 +1,6 @@
 
-#include "cv.h"
-#include "highgui.h"
+#include <cv.h>
+#include <highgui.h>
 #include <stdio.h>
 #include <iostream>
 #include <string>

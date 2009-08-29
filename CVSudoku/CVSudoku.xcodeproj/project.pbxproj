@@ -6,27 +6,52 @@
 	objectVersion = 42;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EB29993F1048AD8200A3E902 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EB86EB041048052200149485 /* main.c */; };
+		EB2999401048AD8400A3E902 /* squares.c in Sources */ = {isa = PBXBuildFile; fileRef = EB86EC2C104812FC00149485 /* squares.c */; };
+		EB2999411048AD9800A3E902 /* libcv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86EC16104810DD00149485 /* libcv.dylib */; };
+		EB2999421048AD9800A3E902 /* libhighgui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86EC171048111800149485 /* libhighgui.dylib */; };
+		EB2999431048AD9F00A3E902 /* cv.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998C31048AB2300A3E902 /* cv.h */; };
+		EB2999441048AD9F00A3E902 /* cv.hpp in Sources */ = {isa = PBXBuildFile; fileRef = EB2998C41048AB2300A3E902 /* cv.hpp */; };
+		EB2999451048AD9F00A3E902 /* cvaux.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998C51048AB2300A3E902 /* cvaux.h */; };
+		EB2999461048AD9F00A3E902 /* cvaux.hpp in Sources */ = {isa = PBXBuildFile; fileRef = EB2998C61048AB2300A3E902 /* cvaux.hpp */; };
+		EB2999471048AD9F00A3E902 /* cvcompat.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998C71048AB2300A3E902 /* cvcompat.h */; };
+		EB2999481048AD9F00A3E902 /* cvhaartraining.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998C81048AB2300A3E902 /* cvhaartraining.h */; };
+		EB2999491048AD9F00A3E902 /* cvmat.hpp in Sources */ = {isa = PBXBuildFile; fileRef = EB2998C91048AB2300A3E902 /* cvmat.hpp */; };
+		EB29994A1048AD9F00A3E902 /* cvtypes.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998CA1048AB2300A3E902 /* cvtypes.h */; };
+		EB29994B1048AD9F00A3E902 /* cvver.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998CB1048AB2300A3E902 /* cvver.h */; };
+		EB29994C1048AD9F00A3E902 /* cvvidsurv.hpp in Sources */ = {isa = PBXBuildFile; fileRef = EB2998CC1048AB2300A3E902 /* cvvidsurv.hpp */; };
+		EB29994D1048AD9F00A3E902 /* cxcore.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998CD1048AB2300A3E902 /* cxcore.h */; };
+		EB29994E1048AD9F00A3E902 /* cxcore.hpp in Sources */ = {isa = PBXBuildFile; fileRef = EB2998CE1048AB2300A3E902 /* cxcore.hpp */; };
+		EB29994F1048AD9F00A3E902 /* cxerror.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998CF1048AB2300A3E902 /* cxerror.h */; };
+		EB2999501048AD9F00A3E902 /* cxmisc.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998D01048AB2300A3E902 /* cxmisc.h */; };
+		EB2999511048AD9F00A3E902 /* cxtypes.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998D11048AB2300A3E902 /* cxtypes.h */; };
+		EB2999521048AD9F00A3E902 /* highgui.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998D21048AB2300A3E902 /* highgui.h */; };
+		EB2999531048AD9F00A3E902 /* ml.h in Sources */ = {isa = PBXBuildFile; fileRef = EB2998D31048AB2300A3E902 /* ml.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		EB2998C31048AB2300A3E902 /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cv.h; path = /opt/local/include/opencv/cv.h; sourceTree = "<absolute>"; };
+		EB2998C41048AB2300A3E902 /* cv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cv.hpp; path = /opt/local/include/opencv/cv.hpp; sourceTree = "<absolute>"; };
+		EB2998C51048AB2300A3E902 /* cvaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvaux.h; path = /opt/local/include/opencv/cvaux.h; sourceTree = "<absolute>"; };
+		EB2998C61048AB2300A3E902 /* cvaux.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvaux.hpp; path = /opt/local/include/opencv/cvaux.hpp; sourceTree = "<absolute>"; };
+		EB2998C71048AB2300A3E902 /* cvcompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvcompat.h; path = /opt/local/include/opencv/cvcompat.h; sourceTree = "<absolute>"; };
+		EB2998C81048AB2300A3E902 /* cvhaartraining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvhaartraining.h; path = /opt/local/include/opencv/cvhaartraining.h; sourceTree = "<absolute>"; };
+		EB2998C91048AB2300A3E902 /* cvmat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvmat.hpp; path = /opt/local/include/opencv/cvmat.hpp; sourceTree = "<absolute>"; };
+		EB2998CA1048AB2300A3E902 /* cvtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvtypes.h; path = /opt/local/include/opencv/cvtypes.h; sourceTree = "<absolute>"; };
+		EB2998CB1048AB2300A3E902 /* cvver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvver.h; path = /opt/local/include/opencv/cvver.h; sourceTree = "<absolute>"; };
+		EB2998CC1048AB2300A3E902 /* cvvidsurv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvvidsurv.hpp; path = /opt/local/include/opencv/cvvidsurv.hpp; sourceTree = "<absolute>"; };
+		EB2998CD1048AB2300A3E902 /* cxcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxcore.h; path = /opt/local/include/opencv/cxcore.h; sourceTree = "<absolute>"; };
+		EB2998CE1048AB2300A3E902 /* cxcore.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cxcore.hpp; path = /opt/local/include/opencv/cxcore.hpp; sourceTree = "<absolute>"; };
+		EB2998CF1048AB2300A3E902 /* cxerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxerror.h; path = /opt/local/include/opencv/cxerror.h; sourceTree = "<absolute>"; };
+		EB2998D01048AB2300A3E902 /* cxmisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxmisc.h; path = /opt/local/include/opencv/cxmisc.h; sourceTree = "<absolute>"; };
+		EB2998D11048AB2300A3E902 /* cxtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxtypes.h; path = /opt/local/include/opencv/cxtypes.h; sourceTree = "<absolute>"; };
+		EB2998D21048AB2300A3E902 /* highgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = highgui.h; path = /opt/local/include/opencv/highgui.h; sourceTree = "<absolute>"; };
+		EB2998D31048AB2300A3E902 /* ml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ml.h; path = /opt/local/include/opencv/ml.h; sourceTree = "<absolute>"; };
+		EB29993B1048AD7600A3E902 /* Codesense */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Codesense; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB86EB041048052200149485 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EB86EB191048069200149485 /* CVSudoku.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = CVSudoku.1; sourceTree = "<group>"; };
 		EB86EB2E1048078200149485 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		EB86EBC510480E2800149485 /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cv.h; path = /opt/local/include/opencv/cv.h; sourceTree = "<absolute>"; };
-		EB86EBC610480E2800149485 /* cv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cv.hpp; path = /opt/local/include/opencv/cv.hpp; sourceTree = "<absolute>"; };
-		EB86EBC710480E2800149485 /* cvaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvaux.h; path = /opt/local/include/opencv/cvaux.h; sourceTree = "<absolute>"; };
-		EB86EBC810480E2800149485 /* cvaux.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvaux.hpp; path = /opt/local/include/opencv/cvaux.hpp; sourceTree = "<absolute>"; };
-		EB86EBC910480E2800149485 /* cvcompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvcompat.h; path = /opt/local/include/opencv/cvcompat.h; sourceTree = "<absolute>"; };
-		EB86EBCA10480E2800149485 /* cvhaartraining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvhaartraining.h; path = /opt/local/include/opencv/cvhaartraining.h; sourceTree = "<absolute>"; };
-		EB86EBCB10480E2800149485 /* cvmat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvmat.hpp; path = /opt/local/include/opencv/cvmat.hpp; sourceTree = "<absolute>"; };
-		EB86EBCC10480E2800149485 /* cvtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvtypes.h; path = /opt/local/include/opencv/cvtypes.h; sourceTree = "<absolute>"; };
-		EB86EBCD10480E2800149485 /* cvver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvver.h; path = /opt/local/include/opencv/cvver.h; sourceTree = "<absolute>"; };
-		EB86EBCE10480E2800149485 /* cvvidsurv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvvidsurv.hpp; path = /opt/local/include/opencv/cvvidsurv.hpp; sourceTree = "<absolute>"; };
-		EB86EBCF10480E2800149485 /* cxcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxcore.h; path = /opt/local/include/opencv/cxcore.h; sourceTree = "<absolute>"; };
-		EB86EBD010480E2800149485 /* cxcore.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cxcore.hpp; path = /opt/local/include/opencv/cxcore.hpp; sourceTree = "<absolute>"; };
-		EB86EBD110480E2800149485 /* cxerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxerror.h; path = /opt/local/include/opencv/cxerror.h; sourceTree = "<absolute>"; };
-		EB86EBD210480E2800149485 /* cxmisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxmisc.h; path = /opt/local/include/opencv/cxmisc.h; sourceTree = "<absolute>"; };
-		EB86EBD310480E2800149485 /* cxtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxtypes.h; path = /opt/local/include/opencv/cxtypes.h; sourceTree = "<absolute>"; };
-		EB86EBD410480E2800149485 /* highgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = highgui.h; path = /opt/local/include/opencv/highgui.h; sourceTree = "<absolute>"; };
-		EB86EBD510480E2800149485 /* ml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ml.h; path = /opt/local/include/opencv/ml.h; sourceTree = "<absolute>"; };
 		EB86EC16104810DD00149485 /* libcv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcv.dylib; path = /opt/local/lib/libcv.dylib; sourceTree = "<absolute>"; };
 		EB86EC171048111800149485 /* libhighgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhighgui.dylib; path = /opt/local/lib/libhighgui.dylib; sourceTree = "<absolute>"; };
 		EB86EC2C104812FC00149485 /* squares.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = squares.c; sourceTree = "<group>"; };
@@ -38,7 +63,69 @@
 		EB86EC601048134300149485 /* pic6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		EB2999391048AD7600A3E902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2999411048AD9800A3E902 /* libcv.dylib in Frameworks */,
+				EB2999421048AD9800A3E902 /* libhighgui.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		EB2998BE1048AAE600A3E902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB29993B1048AD7600A3E902 /* Codesense */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB2998F81048AC2200A3E902 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				EB2998FA1048AC3E00A3E902 /* lib */,
+				EB2998F91048AC3400A3E902 /* include */,
+			);
+			name = OpenCV;
+			sourceTree = "<group>";
+		};
+		EB2998F91048AC3400A3E902 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EB2998C31048AB2300A3E902 /* cv.h */,
+				EB2998C41048AB2300A3E902 /* cv.hpp */,
+				EB2998C51048AB2300A3E902 /* cvaux.h */,
+				EB2998C61048AB2300A3E902 /* cvaux.hpp */,
+				EB2998C71048AB2300A3E902 /* cvcompat.h */,
+				EB2998C81048AB2300A3E902 /* cvhaartraining.h */,
+				EB2998C91048AB2300A3E902 /* cvmat.hpp */,
+				EB2998CA1048AB2300A3E902 /* cvtypes.h */,
+				EB2998CB1048AB2300A3E902 /* cvver.h */,
+				EB2998CC1048AB2300A3E902 /* cvvidsurv.hpp */,
+				EB2998CD1048AB2300A3E902 /* cxcore.h */,
+				EB2998CE1048AB2300A3E902 /* cxcore.hpp */,
+				EB2998CF1048AB2300A3E902 /* cxerror.h */,
+				EB2998D01048AB2300A3E902 /* cxmisc.h */,
+				EB2998D11048AB2300A3E902 /* cxtypes.h */,
+				EB2998D21048AB2300A3E902 /* highgui.h */,
+				EB2998D31048AB2300A3E902 /* ml.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		EB2998FA1048AC3E00A3E902 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EB86EC171048111800149485 /* libhighgui.dylib */,
+				EB86EC16104810DD00149485 /* libcv.dylib */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
 		EB86EAE61048050300149485 = {
 			isa = PBXGroup;
 			children = (
@@ -46,6 +133,7 @@
 				EB86EBC310480DF600149485 /* Libraries */,
 				EB86EB1A1048069500149485 /* Source */,
 				EB86EB1B1048069C00149485 /* Documentation */,
+				EB2998BE1048AAE600A3E902 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,35 +158,9 @@
 		EB86EBC310480DF600149485 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				EB86EC171048111800149485 /* libhighgui.dylib */,
-				EB86EC16104810DD00149485 /* libcv.dylib */,
-				EB86EBC410480DFB00149485 /* OpenCV */,
+				EB2998F81048AC2200A3E902 /* OpenCV */,
 			);
 			name = Libraries;
-			sourceTree = "<group>";
-		};
-		EB86EBC410480DFB00149485 /* OpenCV */ = {
-			isa = PBXGroup;
-			children = (
-				EB86EBC510480E2800149485 /* cv.h */,
-				EB86EBC610480E2800149485 /* cv.hpp */,
-				EB86EBC710480E2800149485 /* cvaux.h */,
-				EB86EBC810480E2800149485 /* cvaux.hpp */,
-				EB86EBC910480E2800149485 /* cvcompat.h */,
-				EB86EBCA10480E2800149485 /* cvhaartraining.h */,
-				EB86EBCB10480E2800149485 /* cvmat.hpp */,
-				EB86EBCC10480E2800149485 /* cvtypes.h */,
-				EB86EBCD10480E2800149485 /* cvver.h */,
-				EB86EBCE10480E2800149485 /* cvvidsurv.hpp */,
-				EB86EBCF10480E2800149485 /* cxcore.h */,
-				EB86EBD010480E2800149485 /* cxcore.hpp */,
-				EB86EBD110480E2800149485 /* cxerror.h */,
-				EB86EBD210480E2800149485 /* cxmisc.h */,
-				EB86EBD310480E2800149485 /* cxtypes.h */,
-				EB86EBD410480E2800149485 /* highgui.h */,
-				EB86EBD510480E2800149485 /* ml.h */,
-			);
-			name = OpenCV;
 			sourceTree = "<group>";
 		};
 		EB86EC5A1048132A00149485 /* Resources */ = {
@@ -132,6 +194,25 @@
 		};
 /* End PBXLegacyTarget section */
 
+/* Begin PBXNativeTarget section */
+		EB29993A1048AD7600A3E902 /* Codesense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2999541048ADBE00A3E902 /* Build configuration list for PBXNativeTarget "Codesense" */;
+			buildPhases = (
+				EB2999381048AD7600A3E902 /* Sources */,
+				EB2999391048AD7600A3E902 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Codesense;
+			productName = Codesense;
+			productReference = EB29993B1048AD7600A3E902 /* Codesense */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
 		EB86EAE81048050300149485 /* Project object */ = {
 			isa = PBXProject;
@@ -139,15 +220,84 @@
 			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 0;
 			mainGroup = EB86EAE61048050300149485;
+			productRefGroup = EB2998BE1048AAE600A3E902 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EB86EB80104809D600149485 /* CVSudoku */,
+				EB29993A1048AD7600A3E902 /* Codesense */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		EB2999381048AD7600A3E902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2999431048AD9F00A3E902 /* cv.h in Sources */,
+				EB2999441048AD9F00A3E902 /* cv.hpp in Sources */,
+				EB2999451048AD9F00A3E902 /* cvaux.h in Sources */,
+				EB2999461048AD9F00A3E902 /* cvaux.hpp in Sources */,
+				EB2999471048AD9F00A3E902 /* cvcompat.h in Sources */,
+				EB2999481048AD9F00A3E902 /* cvhaartraining.h in Sources */,
+				EB2999491048AD9F00A3E902 /* cvmat.hpp in Sources */,
+				EB29994A1048AD9F00A3E902 /* cvtypes.h in Sources */,
+				EB29994B1048AD9F00A3E902 /* cvver.h in Sources */,
+				EB29994C1048AD9F00A3E902 /* cvvidsurv.hpp in Sources */,
+				EB29994D1048AD9F00A3E902 /* cxcore.h in Sources */,
+				EB29994E1048AD9F00A3E902 /* cxcore.hpp in Sources */,
+				EB29994F1048AD9F00A3E902 /* cxerror.h in Sources */,
+				EB2999501048AD9F00A3E902 /* cxmisc.h in Sources */,
+				EB2999511048AD9F00A3E902 /* cxtypes.h in Sources */,
+				EB2999521048AD9F00A3E902 /* highgui.h in Sources */,
+				EB2999531048AD9F00A3E902 /* ml.h in Sources */,
+				EB2999401048AD8400A3E902 /* squares.c in Sources */,
+				EB29993F1048AD8200A3E902 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
 /* Begin XCBuildConfiguration section */
+		EB29993D1048AD7700A3E902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Codesense;
+			};
+			name = Debug;
+		};
+		EB29993E1048AD7700A3E902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Codesense;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		EB86EAE91048050300149485 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -186,6 +336,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EB2999541048ADBE00A3E902 /* Build configuration list for PBXNativeTarget "Codesense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB29993D1048AD7700A3E902 /* Debug */,
+				EB29993E1048AD7700A3E902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EB86EAEB1048050300149485 /* Build configuration list for PBXProject "CVSudoku" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -7,8 +7,8 @@
 #pragma package <opencv>
 #endif
 
-#include "cv.h"
-#include "highgui.h"
+#include <cv.h>
+#include <highgui.h>
 #include <stdio.h>
 #include <math.h>
 #include <string.h>

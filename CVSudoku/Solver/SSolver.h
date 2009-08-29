@@ -38,6 +38,7 @@ public:
 			newpoint(pts[i]);
 		}
 	}
+	void addpoint(Spoint &point){newpoint(point);}
 	
 	bool solve(); 
 		

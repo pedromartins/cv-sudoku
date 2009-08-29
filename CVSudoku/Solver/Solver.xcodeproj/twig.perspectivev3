@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -268,12 +270,11 @@
 							<array>
 								<string>08FB7794FE84155DC02AAC07</string>
 								<string>08FB7795FE84155DC02AAC07</string>
+								<string>1C77FABC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -295,7 +296,7 @@
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>552 138 885 740 0 0 1440 878 </string>
+						<string>525 138 885 740 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -306,8 +307,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -325,7 +324,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F2C64AE01049632C00CBDC35</string>
+										<string>F2C64B40104973D600CBDC35</string>
 										<key>history</key>
 										<array>
 											<string>F20F2EEF1048AA600046FF67</string>
@@ -333,9 +332,9 @@
 											<string>F2C64A4210492B9200CBDC35</string>
 											<string>F2C64A4310492B9200CBDC35</string>
 											<string>F2C64A5E10492CC200CBDC35</string>
-											<string>F2C64AA21049392E00CBDC35</string>
-											<string>F2C64AD9104962CD00CBDC35</string>
-											<string>F2C64ADF1049631900CBDC35</string>
+											<string>F2C64B0C10496F6100CBDC35</string>
+											<string>F2C64B30104972EE00CBDC35</string>
+											<string>F2C64B3D104973C200CBDC35</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -349,6 +348,16 @@
 											<string>F2C64A6310492CC200CBDC35</string>
 											<string>F2C64ADB104962CD00CBDC35</string>
 											<string>F2C64ADC104962CD00CBDC35</string>
+											<string>F2C64AF6104968EE00CBDC35</string>
+											<string>F2C64AF7104968EE00CBDC35</string>
+											<string>F2C64AF8104968EE00CBDC35</string>
+											<string>F2C64AF9104968EE00CBDC35</string>
+											<string>F2C64B0310496A4300CBDC35</string>
+											<string>F2C64B0410496A4300CBDC35</string>
+											<string>F2C64B0E10496F6100CBDC35</string>
+											<string>F2C64B0F10496F6100CBDC35</string>
+											<string>F2C64B32104972EE00CBDC35</string>
+											<string>F2C64B33104972EE00CBDC35</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -364,7 +373,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {678, 552}}</string>
 								<key>RubberWindowFrame</key>
-								<string>552 138 885 740 0 0 1440 878 </string>
+								<string>525 138 885 740 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -389,7 +398,7 @@
 										<key>Frame</key>
 										<string>{{10, 27}, {678, 115}}</string>
 										<key>RubberWindowFrame</key>
-										<string>552 138 885 740 0 0 1440 878 </string>
+										<string>525 138 885 740 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -405,7 +414,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {678, 344}}</string>
+										<string>{{10, 27}, {678, 115}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -662,7 +671,7 @@
 		<string>/Users/twig/Desktop/CVSudoku/Solver/Solver.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>552 138 885 740 0 0 1440 878 </string>
+	<string>525 138 885 740 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

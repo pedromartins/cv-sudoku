@@ -49,6 +49,50 @@ void SSolver::block(int blockx, int blocky, int z){
 	if(foundspace){
 		newpoint(point);
 	}
+	
+}
+
+void SSolver::blockrc(int blockx, int blocky, int z){
+	int col = -1, row = -1;
+	for( int i = 0; i < 3; i++){
+		for( int j = 0; j < 3; j++){
+			if (!masks[3 * blockx + i][3 * blocky + j][z]){
+				if( col == -1 || row==-1){
+					col = i; row = j;
+				} else {
+					// std::cout << "col = " << col << ", row = " << row << std::endl;
+					if(col == i){
+						row = -2;
+					} else if (row == j) {
+						col = -2;
+					} else {
+						return;
+					}
+				}
+			}
+		}
+	}
+	
+	if ( col == -1 || row == -1 ){
+		return;
+	} else if (col != -2){
+		//mask other block cols
+		for(int y = 1; y < 3; y++){
+			for(int j = 0; j < 3; j++){
+				masks[3 * blockx + col][3 * ((blocky + y)%3) + j][z] = true;
+			}
+		}
+		
+	} else{ // row != -2 || row != -1
+		//mask other block cols
+		for(int x = 1; x < 3; x++){
+			for(int i = 0; i < 3; i++){
+				masks[3 * ((blockx + x)%3) + i][3 * blocky + row][z] = true;
+			}
+		}
+	}
+	
+	// std:: cout << "lines in boxes is used, col = "<< col << ", row = " << row << std::endl;
 }
 
 void SSolver::col(int x, int z){
@@ -114,6 +158,7 @@ void SSolver::cow(int x, int y){
 	//has one been found
 	if(foundspace){
 		newpoint(point);
+		//std::cout << "cow has actually found a number" << std::endl;
 	}
 }
 
@@ -168,6 +213,8 @@ bool SSolver::solve(){
 			int blockx = x / 3;
 			int blocky = y / 3;
 			
+		
+			
 		//check each row, column , and its block for all other z
 			for( int k = 0 ; k < 9 ; k++){
 				block( blockx, blocky, k);
@@ -178,9 +225,14 @@ bool SSolver::solve(){
 			
 		//check blocks either side of it
 			
-			for( int k = 0 ; k < 3 ; k++){
-				block( k     , blocky, num - 1);
-				block( blockx, k     , num - 1);
+			for( int k = 1 ; k < 3 ; k++){
+				//check if there is one left
+				block(  k            , (blocky + k)%3, num - 1);
+				block( (blockx + k)%3,  k            , num - 1);
+				
+				// there will now only be more than one left, so check for pairs/triple in block rows/cols
+				blockrc(  k            , (blocky + k)%3, num - 1);
+				blockrc( (blockx + k)%3,  k            , num - 1);
 			}
 		}
 	
@@ -198,6 +250,7 @@ bool SSolver::solve(){
 	
 	return false;
 }
+
 int SSolver::getpoint(int x, int y){
 	return real[x][y]; 
 }

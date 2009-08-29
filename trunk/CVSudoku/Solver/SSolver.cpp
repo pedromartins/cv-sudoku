@@ -23,7 +23,7 @@ void SSolver::arrayinit(){
 	}
 }
 
-void SSolver::block(int blockx, int blocky, int z){
+bool SSolver::block(int blockx, int blocky, int z){
 	bool foundspace = false;
 	Spoint point;
 	
@@ -39,7 +39,7 @@ void SSolver::block(int blockx, int blocky, int z){
 					foundspace = true;
 					point = Spoint(x,y,z+1); // num = z +1
 				} else {
-					return;
+					return false;
 				}
 			}
 		}
@@ -48,8 +48,9 @@ void SSolver::block(int blockx, int blocky, int z){
 	//has one been found
 	if(foundspace){
 		newpoint(point);
+		return true;
 	}
-	
+	return false;
 }
 
 void SSolver::blockrc(int blockx, int blocky, int z){
@@ -92,7 +93,7 @@ void SSolver::blockrc(int blockx, int blocky, int z){
 		}
 	}
 	
-	// std:: cout << "lines in boxes is used, col = "<< col << ", row = " << row << std::endl;
+	 std:: cout << "lines in boxes is used, col = "<< col << ", row = " << row << std::endl;
 }
 
 void SSolver::col(int x, int z){
@@ -227,12 +228,10 @@ bool SSolver::solve(){
 			
 			for( int k = 1 ; k < 3 ; k++){
 				//check if there is one left
-				block(  k            , (blocky + k)%3, num - 1);
-				block( (blockx + k)%3,  k            , num - 1);
-				
-				// there will now only be more than one left, so check for pairs/triple in block rows/cols
-				blockrc(  k            , (blocky + k)%3, num - 1);
-				blockrc( (blockx + k)%3,  k            , num - 1);
+				if (!block(  k            , (blocky + k)%3, num - 1))
+					blockrc(  k            , (blocky + k)%3, num - 1);// there will now only be more than one left, so check for pairs/triple in block rows/cols
+				if (!block( (blockx + k)%3,  k            , num - 1))
+					blockrc( (blockx + k)%3,  k            , num - 1);
 			}
 		}
 	

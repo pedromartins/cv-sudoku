@@ -149,6 +149,16 @@
 			F2C64B3B104973A800CBDC35 /* PBXTextBookmark */ = F2C64B3B104973A800CBDC35 /* PBXTextBookmark */;
 			F2C64B3D104973C200CBDC35 /* PBXTextBookmark */ = F2C64B3D104973C200CBDC35 /* PBXTextBookmark */;
 			F2C64B40104973D600CBDC35 /* PBXTextBookmark */ = F2C64B40104973D600CBDC35 /* PBXTextBookmark */;
+			F2C64B43104974A100CBDC35 /* PBXTextBookmark */ = F2C64B43104974A100CBDC35 /* PBXTextBookmark */;
+			F2C64B44104974A100CBDC35 /* PBXTextBookmark */ = F2C64B44104974A100CBDC35 /* PBXTextBookmark */;
+			F2C64B45104974A100CBDC35 /* PBXTextBookmark */ = F2C64B45104974A100CBDC35 /* PBXTextBookmark */;
+			F2C64B46104974A100CBDC35 /* PBXTextBookmark */ = F2C64B46104974A100CBDC35 /* PBXTextBookmark */;
+			F2C64B47104974A100CBDC35 /* PBXTextBookmark */ = F2C64B47104974A100CBDC35 /* PBXTextBookmark */;
+			F2C64B48104974A100CBDC35 /* PBXTextBookmark */ = F2C64B48104974A100CBDC35 /* PBXTextBookmark */;
+			F2C64B49104974A100CBDC35 /* PBXTextBookmark */ = F2C64B49104974A100CBDC35 /* PBXTextBookmark */;
+			F2C64B4A104974A100CBDC35 /* PBXTextBookmark */ = F2C64B4A104974A100CBDC35 /* PBXTextBookmark */;
+			F2C64B4B104974D000CBDC35 /* PBXTextBookmark */ = F2C64B4B104974D000CBDC35 /* PBXTextBookmark */;
+			F2C64B4E104974D700CBDC35 /* PBXTextBookmark */ = F2C64B4E104974D700CBDC35 /* PBXTextBookmark */;
 		};
 		sourceControlManager = F292B9041048A4DE00B5496A /* Source Control */;
 		userBuildSettings = {
@@ -156,7 +166,7 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {617, 2114}}";
+			sepNavIntBoundsRect = "{{0, 0}, {617, 2142}}";
 			sepNavSelRange = "{2981, 0}";
 			sepNavVisRange = "{2160, 809}";
 			sepNavWindowFrame = "{{587, 78}, {912, 800}}";
@@ -220,7 +230,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 12";
 		rLen = 0;
-		rLoc = 5493;
+		rLoc = 5527;
 		rType = 0;
 		vrLen = 235;
 		vrLoc = 0;
@@ -274,17 +284,17 @@
 	F292B9071048A50700B5496A /* SSolver.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {617, 756}}";
-			sepNavSelRange = "{613, 0}";
+			sepNavSelRange = "{541, 0}";
 			sepNavVisRange = "{276, 807}";
 			sepNavWindowFrame = "{{38, 52}, {912, 800}}";
 		};
 	};
 	F292B9081048A50700B5496A /* SSolver.cpp */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1862, 313}\";\n            s = 0;\n        },\n                {\n            r = \"{2210, 312}\";\n            s = 0;\n        },\n                {\n            r = \"{2557, 377}\";\n            s = 0;\n        },\n                {\n            r = \"{2975, 850}\";\n            s = 0;\n        },\n                {\n            r = \"{4858, 17}\";\n            s = 0;\n        },\n                {\n            r = \"{4906, 76}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    r = \"{5034, 42}\";\n                    s = 0;\n                }\n            );\n            r = \"{5002, 77}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 5659}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {648, 2436}}";
-			sepNavSelRange = "{1106, 0}";
-			sepNavVisRange = "{760, 762}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1894, 313}\";\n            s = 0;\n        },\n                {\n            r = \"{2242, 312}\";\n            s = 0;\n        },\n                {\n            r = \"{2589, 377}\";\n            s = 0;\n        },\n                {\n            r = \"{3007, 850}\";\n            s = 0;\n        },\n                {\n            r = \"{4892, 17}\";\n            s = 0;\n        },\n                {\n            r = \"{4940, 76}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    r = \"{5068, 42}\";\n                    s = 0;\n                }\n            );\n            r = \"{5036, 77}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 5693}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {972, 2450}}";
+			sepNavSelRange = "{1770, 0}";
+			sepNavVisRange = "{983, 876}";
 			sepNavWindowFrame = "{{61, 31}, {912, 800}}";
 		};
 	};
@@ -431,7 +441,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 181";
 		rLen = 0;
-		rLoc = 5187;
+		rLoc = 5221;
 		rType = 0;
 		vrLen = 686;
 		vrLoc = 2843;
@@ -451,7 +461,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 189";
 		rLen = 0;
-		rLoc = 5380;
+		rLoc = 5414;
 		rType = 0;
 		vrLen = 833;
 		vrLoc = 3010;
@@ -481,7 +491,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 180";
 		rLen = 0;
-		rLoc = 5160;
+		rLoc = 5194;
 		rType = 0;
 		vrLen = 1169;
 		vrLoc = 2630;
@@ -491,7 +501,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 163";
 		rLen = 0;
-		rLoc = 4757;
+		rLoc = 4791;
 		rType = 0;
 		vrLen = 1214;
 		vrLoc = 2424;
@@ -511,7 +521,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 98";
 		rLen = 31;
-		rLoc = 2525;
+		rLoc = 2557;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 1345;
@@ -521,7 +531,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 98";
 		rLen = 31;
-		rLoc = 2525;
+		rLoc = 2557;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 1345;
@@ -541,7 +551,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 177";
 		rLen = 0;
-		rLoc = 4317;
+		rLoc = 4349;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 2770;
@@ -551,7 +561,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 177";
 		rLen = 0;
-		rLoc = 4317;
+		rLoc = 4349;
 		rType = 0;
 		vrLen = 236;
 		vrLoc = 3151;
@@ -561,7 +571,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 176";
 		rLen = 0;
-		rLoc = 4315;
+		rLoc = 4347;
 		rType = 0;
 		vrLen = 1156;
 		vrLoc = 2770;
@@ -571,7 +581,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 117";
 		rLen = 0;
-		rLoc = 2930;
+		rLoc = 2962;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 1460;
@@ -581,7 +591,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 117";
 		rLen = 0;
-		rLoc = 2930;
+		rLoc = 2962;
 		rType = 0;
 		vrLen = 795;
 		vrLoc = 1508;
@@ -591,7 +601,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 117";
 		rLen = 0;
-		rLoc = 2930;
+		rLoc = 2962;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 1533;
@@ -601,7 +611,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 117";
 		rLen = 0;
-		rLoc = 2930;
+		rLoc = 2962;
 		rType = 0;
 		vrLen = 295;
 		vrLoc = 2008;
@@ -611,7 +621,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 184";
 		rLen = 0;
-		rLoc = 4522;
+		rLoc = 4710;
 		rType = 0;
 		vrLen = 1108;
 		vrLoc = 3042;
@@ -621,7 +631,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 184";
 		rLen = 0;
-		rLoc = 4522;
+		rLoc = 4710;
 		rType = 0;
 		vrLen = 275;
 		vrLoc = 3042;
@@ -651,7 +661,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 173";
 		rLen = 0;
-		rLoc = 4153;
+		rLoc = 4185;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 2125;
@@ -661,7 +671,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 173";
 		rLen = 0;
-		rLoc = 4153;
+		rLoc = 4185;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 2125;
@@ -701,7 +711,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 52";
 		rLen = 0;
-		rLoc = 836;
+		rLoc = 870;
 		rType = 0;
 		vrLen = 1645;
 		vrLoc = 421;
@@ -711,7 +721,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 52";
 		rLen = 0;
-		rLoc = 836;
+		rLoc = 870;
 		rType = 0;
 		vrLen = 209;
 		vrLoc = 1857;
@@ -721,7 +731,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 52";
 		rLen = 0;
-		rLoc = 836;
+		rLoc = 870;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 30;
@@ -741,7 +751,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 174";
 		rLen = 0;
-		rLoc = 4086;
+		rLoc = 4118;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 2839;
@@ -751,7 +761,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 174";
 		rLen = 0;
-		rLoc = 4086;
+		rLoc = 4118;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 2839;
@@ -771,7 +781,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 55";
 		rLen = 0;
-		rLoc = 854;
+		rLoc = 888;
 		rType = 0;
 		vrLen = 2232;
 		vrLoc = 166;
@@ -791,7 +801,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 55";
 		rLen = 29;
-		rLoc = 862;
+		rLoc = 896;
 		rType = 0;
 		vrLen = 2219;
 		vrLoc = 166;
@@ -801,7 +811,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 55";
 		rLen = 29;
-		rLoc = 862;
+		rLoc = 896;
 		rType = 0;
 		vrLen = 2219;
 		vrLoc = 166;
@@ -821,7 +831,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 76";
 		rLen = 0;
-		rLoc = 1301;
+		rLoc = 1335;
 		rType = 0;
 		vrLen = 591;
 		vrLoc = 660;
@@ -831,7 +841,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 69";
 		rLen = 0;
-		rLoc = 1283;
+		rLoc = 1317;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 835;
@@ -841,7 +851,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 85";
 		rLen = 0;
-		rLoc = 1568;
+		rLoc = 1602;
 		rType = 0;
 		vrLen = 251;
 		vrLoc = 1393;
@@ -851,7 +861,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 85";
 		rLen = 0;
-		rLoc = 1568;
+		rLoc = 1602;
 		rType = 0;
 		vrLen = 1723;
 		vrLoc = 1162;
@@ -861,7 +871,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 65";
 		rLen = 0;
-		rLoc = 1226;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 699;
 		vrLoc = 772;
@@ -871,7 +881,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 65";
 		rLen = 0;
-		rLoc = 1226;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 183;
 		vrLoc = 1288;
@@ -880,7 +890,7 @@
 		isa = PBXTextBookmark;
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		rLen = 1;
-		rLoc = 55;
+		rLoc = 56;
 		rType = 1;
 	};
 	F2C64B1D1049712E00CBDC35 /* PBXTextBookmark */ = {
@@ -888,7 +898,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 89";
 		rLen = 0;
-		rLoc = 1709;
+		rLoc = 1743;
 		rType = 0;
 		vrLen = 1060;
 		vrLoc = 947;
@@ -898,7 +908,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 89";
 		rLen = 0;
-		rLoc = 1709;
+		rLoc = 1743;
 		rType = 0;
 		vrLen = 183;
 		vrLoc = 1288;
@@ -908,7 +918,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 75";
 		rLen = 0;
-		rLoc = 1301;
+		rLoc = 1335;
 		rType = 0;
 		vrLen = 1731;
 		vrLoc = 1214;
@@ -918,7 +928,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 75";
 		rLen = 0;
-		rLoc = 1301;
+		rLoc = 1335;
 		rType = 0;
 		vrLen = 271;
 		vrLoc = 1234;
@@ -928,7 +938,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 77";
 		rLen = 0;
-		rLoc = 1310;
+		rLoc = 1344;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 1029;
@@ -938,7 +948,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 77";
 		rLen = 0;
-		rLoc = 1310;
+		rLoc = 1344;
 		rType = 0;
 		vrLen = 172;
 		vrLoc = 1220;
@@ -948,7 +958,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 94";
 		rLen = 0;
-		rLoc = 1826;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 1029;
 		vrLoc = 1064;
@@ -958,7 +968,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 94";
 		rLen = 0;
-		rLoc = 1826;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 1845;
 		vrLoc = 1234;
@@ -968,7 +978,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 94";
 		rLen = 0;
-		rLoc = 1826;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 137;
 		vrLoc = 1220;
@@ -978,7 +988,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 94";
 		rLen = 0;
-		rLoc = 1826;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 848;
 		vrLoc = 894;
@@ -988,7 +998,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 94";
 		rLen = 0;
-		rLoc = 1826;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 85;
 		vrLoc = 728;
@@ -998,7 +1008,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 63";
 		rLen = 0;
-		rLoc = 1137;
+		rLoc = 1171;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 760;
@@ -1008,7 +1018,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 63";
 		rLen = 0;
-		rLoc = 1137;
+		rLoc = 1171;
 		rType = 0;
 		vrLen = 77;
 		vrLoc = 760;
@@ -1028,7 +1038,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 233";
 		rLen = 0;
-		rLoc = 4636;
+		rLoc = 4780;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 3811;
@@ -1038,7 +1048,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 233";
 		rLen = 0;
-		rLoc = 4636;
+		rLoc = 4780;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 3811;
@@ -1058,7 +1068,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 233";
 		rLen = 0;
-		rLoc = 4636;
+		rLoc = 4780;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 3811;
@@ -1068,7 +1078,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 233";
 		rLen = 0;
-		rLoc = 4636;
+		rLoc = 4780;
 		rType = 0;
 		vrLen = 186;
 		vrLoc = 3811;
@@ -1078,7 +1088,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 60";
 		rLen = 0;
-		rLoc = 1059;
+		rLoc = 1093;
 		rType = 0;
 		vrLen = 779;
 		vrLoc = 813;
@@ -1088,7 +1098,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 60";
 		rLen = 0;
-		rLoc = 1059;
+		rLoc = 1093;
 		rType = 0;
 		vrLen = 225;
 		vrLoc = 1367;
@@ -1098,7 +1108,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 63";
 		rLen = 0;
-		rLoc = 1106;
+		rLoc = 1140;
 		rType = 0;
 		vrLen = 887;
 		vrLoc = 839;
@@ -1108,7 +1118,7 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 63";
 		rLen = 0;
-		rLoc = 1106;
+		rLoc = 1140;
 		rType = 0;
 		vrLen = 93;
 		vrLoc = 1277;
@@ -1118,9 +1128,109 @@
 		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
 		name = "SSolver.cpp: 63";
 		rLen = 0;
-		rLoc = 1106;
+		rLoc = 1140;
 		rType = 0;
 		vrLen = 762;
 		vrLoc = 760;
+	};
+	F2C64B43104974A100CBDC35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F292B9071048A50700B5496A /* SSolver.h */;
+		name = "SSolver.h: 30";
+		rLen = 0;
+		rLoc = 541;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 276;
+	};
+	F2C64B44104974A100CBDC35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 142";
+		rLen = 0;
+		rLoc = 2981;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 2160;
+	};
+	F2C64B45104974A100CBDC35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
+		name = "SSolver.cpp: 234";
+		rLen = 0;
+		rLoc = 4780;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 4113;
+	};
+	F2C64B46104974A100CBDC35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
+		name = "SSolver.cpp: 53";
+		rLen = 0;
+		rLoc = 870;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 363;
+	};
+	F2C64B47104974A100CBDC35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F292B9071048A50700B5496A /* SSolver.h */;
+		name = "SSolver.h: 30";
+		rLen = 0;
+		rLoc = 541;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 276;
+	};
+	F2C64B48104974A100CBDC35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
+		name = "SSolver.cpp: 234";
+		rLen = 0;
+		rLoc = 4780;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 4113;
+	};
+	F2C64B49104974A100CBDC35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 142";
+		rLen = 0;
+		rLoc = 2981;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 2160;
+	};
+	F2C64B4A104974A100CBDC35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
+		name = "SSolver.cpp: 96";
+		rLen = 0;
+		rLoc = 1770;
+		rType = 0;
+		vrLen = 2575;
+		vrLoc = 1311;
+	};
+	F2C64B4B104974D000CBDC35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
+		name = "SSolver.cpp: 96";
+		rLen = 0;
+		rLoc = 1770;
+		rType = 0;
+		vrLen = 93;
+		vrLoc = 1311;
+	};
+	F2C64B4E104974D700CBDC35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F292B9081048A50700B5496A /* SSolver.cpp */;
+		name = "SSolver.cpp: 96";
+		rLen = 0;
+		rLoc = 1770;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 983;
 	};
 }

@@ -25,7 +25,7 @@ private:
 	
 	void arrayinit();
 	
-	void newpoint(Spoint point);
+	void newpoint(Spoint &point);
 	
 	void block(int x, int y, int z);
 	void col(int x, int z);

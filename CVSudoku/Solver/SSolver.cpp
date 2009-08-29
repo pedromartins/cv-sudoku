@@ -95,10 +95,15 @@ void SSolver::row(int y, int z){
 	}
 }
 
-void SSolver::newpoint(Spoint point){
+void SSolver::newpoint(Spoint &point){
 	const int x   = point.x;
 	const int y   = point.y;
 	const int num = point.num;
+	
+	// Error Check
+	if(real[x][y] != num && real[x][y] != 0){
+		std::cout << "Error point: x =" << x << ", y= " << y << ", newnum = " << num << ", oldnum = " << real[x][y] << ", pt = " << pt << std::endl;
+	}
 	
 	// add it to the real and mask
 	real[x][y] = num;
@@ -136,11 +141,6 @@ bool SSolver::solve(){
 			int x   = newpts[pt].x;
 			int y   = newpts[pt].y;
 			int num = newpts[pt].num;
-			
-		// Error Check
-			if(real[x][y] != num){
-				std::cout << "Error point: x =" << x << ", y= " << y << ", newnum = " << num << ", oldnum = " << real[x][y] << ", pt = " << pt << std::endl;
-			}
 		
 		//get block number
 			int blockx = x / 3;
@@ -179,8 +179,8 @@ bool SSolver::solve(){
 std::ostream& operator<< (std::ostream& out, SSolver& s){
 	for(int i = 0; i < 9 ; i++){
 			for (int j = 0; j<9; j++) {
-				//Swapline (transpose)
-				out << s.real[j][i];
+				//Swapline, (transpose)
+				out << s.real[j][i] << ' ';
 			}
 		out << std::endl;
 	}

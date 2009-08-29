@@ -93,7 +93,7 @@ int main (int argc, char * const argv[]) {
 	pts1[26] = Spoint(6,7,9);
 	pts1[27] = Spoint(8,7,7);
 	pts1[28] = Spoint(0,8,2);
-	pts1[19] = Spoint(3,8,8);
+	pts1[29] = Spoint(3,8,8);
 	pts1[30] = Spoint(5,8,3);
 	
 	pts1[31] = Spoint(6,8,1);

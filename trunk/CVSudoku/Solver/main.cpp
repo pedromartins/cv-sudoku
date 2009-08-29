@@ -7,7 +7,7 @@ using namespace std;
 
 int main (int argc, char * const argv[]) {
     // insert code here...
-/*
+
 //easy	
 	Spoint* pts = new Spoint[36]; 
 	
@@ -57,7 +57,7 @@ int main (int argc, char * const argv[]) {
 	cout << s1;
 	
 	delete [] pts;
-*/
+
 	cout << endl;
 //medium
 	Spoint* pts1 = new Spoint[32]; 
@@ -100,7 +100,7 @@ int main (int argc, char * const argv[]) {
 
 	
 	SSolver s2(pts1, 32);
-	//s2.solve();
+	s2.solve();
 	cout << s2 << endl;
 	
 	delete [] pts1;

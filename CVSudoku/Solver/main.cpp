@@ -106,6 +106,44 @@ int main (int argc, char * const argv[]) {
 	delete [] pts1;
 	
 	
+	//hard
+	Spoint* pts2 = new Spoint[26]; 
+	
+	pts2[0] = Spoint(0,0,6);
+	pts2[1] = Spoint(4,0,7);
+	pts2[2] = Spoint(6,0,5);
+	pts2[3] = Spoint(8,0,8);
+	pts2[4] = Spoint(2,1,5);
+	pts2[5] = Spoint(5,1,3);
+	pts2[6] = Spoint(7,1,6);
+	pts2[7] = Spoint(5,2,5);
+	pts2[8] = Spoint(2,3,7);
+	pts2[9] = Spoint(3,3,3);
+	
+	pts2[10] = Spoint(8,3,1);	
+	pts2[11] = Spoint(0,4,5);
+	pts2[12] = Spoint(3,4,7);
+	pts2[13] = Spoint(5,4,4);
+	pts2[14] = Spoint(8,4,6);
+	pts2[15] = Spoint(0,5,8);
+	pts2[16] = Spoint(5,5,6);
+	pts2[17] = Spoint(6,5,9);
+	pts2[18] = Spoint(3,6,4);
+	pts2[19] = Spoint(1,7,1);
+	
+	pts2[20] = Spoint(3,7,5);
+	pts2[21] = Spoint(6,7,2);
+	pts2[22] = Spoint(0,8,7);
+	pts2[23] = Spoint(2,8,2);
+	pts2[24] = Spoint(4,8,8);
+	pts2[25] = Spoint(8,8,9);
+	
+	SSolver s3(pts2, 26);
+	s3.solve();
+	cout << s3 << endl;
+	
+	delete [] pts2;
+	
 	
     //std::cout << "Hello, World!\n";
     return 0;

@@ -7,10 +7,9 @@ using namespace std;
 
 int main (int argc, char * const argv[]) {
     // insert code here...
-	
-		Spoint* pts;
+/*
 //easy	
-	pts = new Spoint[36]; 
+	Spoint* pts = new Spoint[36]; 
 	
 	pts[0] = Spoint(2,0,4);
 	pts[1] = Spoint(5,0,5);
@@ -58,58 +57,53 @@ int main (int argc, char * const argv[]) {
 	cout << s1;
 	
 	delete [] pts;
-	
+*/
 	cout << endl;
 //medium
-	pts = new Spoint[36]; 
+	Spoint* pts1 = new Spoint[32]; 
 	
-	pts[0] = Spoint(2,0,1);
-	pts[1] = Spoint(4,0,8);
-	pts[2] = Spoint(5,0,6);
-	pts[3] = Spoint(8,0,3);
-	pts[4] = Spoint(0,1,3);
-	pts[5] = Spoint(6,1,2);
-	pts[6] = Spoint(1,2,6);
-	pts[7] = Spoint(2,2,2);
-	pts[8] = Spoint(4,2,5);
-	pts[9] = Spoint(5,2,9);
+	pts1[0] = Spoint(2,0,1);
+	pts1[1] = Spoint(4,0,8);
+	pts1[2] = Spoint(5,0,6);
+	pts1[3] = Spoint(8,0,3);
+	pts1[4] = Spoint(0,1,3);
+	pts1[5] = Spoint(6,1,2);
+	pts1[6] = Spoint(1,2,6);
+	pts1[7] = Spoint(2,2,2);
+	pts1[8] = Spoint(4,2,5);
+	pts1[9] = Spoint(5,2,9);
 	
-	pts[10] = Spoint(7,2,1);	
-	pts[11] = Spoint(8,2,4);
-	pts[12] = Spoint(2,3,7);
-	pts[13] = Spoint(7,3,6);
-	pts[14] = Spoint(8,3,1);
-	pts[15] = Spoint(4,4,9);
-	pts[16] = Spoint(5,4,1);
-	pts[17] = Spoint(0,5,8);
-	pts[18] = Spoint(1,5,1);
-	pts[19] = Spoint(6,5,3);
+	pts1[10] = Spoint(7,2,1);	
+	pts1[11] = Spoint(8,2,4);
+	pts1[12] = Spoint(2,3,7);
+	pts1[13] = Spoint(7,3,6);
+	pts1[14] = Spoint(8,3,1);
+	pts1[15] = Spoint(4,4,9);
+	pts1[16] = Spoint(5,4,1);
+	pts1[17] = Spoint(0,5,8);
+	pts1[18] = Spoint(1,5,1);
+	pts1[19] = Spoint(6,5,3);
 	
-	pts[20] = Spoint(0,6,1);
-	pts[21] = Spoint(1,6,3);
-	pts[22] = Spoint(3,6,9);
-	pts[23] = Spoint(4,6,4);
-	pts[24] = Spoint(1,6,4);
-	pts[25] = Spoint(7,6,8);
-	pts[26] = Spoint(2,7,4);
-	pts[27] = Spoint(5,7,9);
-	pts[28] = Spoint(8,7,7);
-	pts[29] = Spoint(0,8,2);
-	pts[30] = Spoint(3,8,8);
+	pts1[20] = Spoint(0,6,1);
+	pts1[21] = Spoint(1,6,3);
+	pts1[22] = Spoint(3,6,9);
+	pts1[23] = Spoint(4,6,4);
+	pts1[24] = Spoint(7,6,8);
+	pts1[25] = Spoint(2,7,4);
+	pts1[26] = Spoint(6,7,9);
+	pts1[27] = Spoint(8,7,7);
+	pts1[28] = Spoint(0,8,2);
+	pts1[19] = Spoint(3,8,8);
+	pts1[30] = Spoint(5,8,3);
 	
-	pts[31] = Spoint(5,8,3);
-	pts[32] = Spoint(6,8,1);
+	pts1[31] = Spoint(6,8,1);
 
 	
-	SSolver s2(pts, 32);
-	s2.solve();
-	cout << s2;
+	SSolver s2(pts1, 32);
+	//s2.solve();
+	cout << s2 << endl;
 	
-	
-	
-	cout << endl;
-	
-	delete [] pts;
+	delete [] pts1;
 	
 	
 	

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Debug</string>
+	<string>Project</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -272,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -294,6 +294,8 @@
 							<string>MainColumn</string>
 							<real>185</real>
 						</array>
+						<key>RubberWindowFrame</key>
+						<string>552 138 885 740 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -304,12 +306,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>F2415B581048A8EC00790A2F</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SSolver.h</string>
+								<string>SSolver.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -317,11 +321,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>F2415B591048A8EC00790A2F</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SSolver.h</string>
+										<string>SSolver.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F2C64AA61049393000CBDC35</string>
+										<string>F2C64AE01049632C00CBDC35</string>
 										<key>history</key>
 										<array>
 											<string>F20F2EEF1048AA600046FF67</string>
@@ -329,9 +333,9 @@
 											<string>F2C64A4210492B9200CBDC35</string>
 											<string>F2C64A4310492B9200CBDC35</string>
 											<string>F2C64A5E10492CC200CBDC35</string>
-											<string>F2C64A7610492DAA00CBDC35</string>
 											<string>F2C64AA21049392E00CBDC35</string>
-											<string>F2C64AA31049392E00CBDC35</string>
+											<string>F2C64AD9104962CD00CBDC35</string>
+											<string>F2C64ADF1049631900CBDC35</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -343,7 +347,8 @@
 											<string>F2C64A4510492B9200CBDC35</string>
 											<string>F2C64A4610492B9200CBDC35</string>
 											<string>F2C64A6310492CC200CBDC35</string>
-											<string>F2C64AA41049392E00CBDC35</string>
+											<string>F2C64ADB104962CD00CBDC35</string>
+											<string>F2C64ADC104962CD00CBDC35</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -358,6 +363,8 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {678, 552}}</string>
+								<key>RubberWindowFrame</key>
+								<string>552 138 885 740 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -381,6 +388,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {678, 115}}</string>
+										<key>RubberWindowFrame</key>
+										<string>552 138 885 740 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -462,11 +471,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F2C64A8410492EB600CBDC35</string>
+				<string>F2C64AE11049632C00CBDC35</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>F2C64A8510492EB600CBDC35</string>
+				<string>F2C64AE21049632C00CBDC35</string>
 				<string>F2415B581048A8EC00790A2F</string>
-				<string>F2C64A8610492EB600CBDC35</string>
+				<string>F2C64AE31049632C00CBDC35</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -505,8 +514,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
@@ -518,8 +525,6 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {885, 398}}</string>
-						<key>RubberWindowFrame</key>
-						<string>364 138 885 740 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -543,8 +548,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {432, 143}}</string>
-									<string>{{432, 0}, {453, 143}}</string>
+									<string>{{0, 0}, {432, 144}}</string>
+									<string>{{432, 0}, {453, 144}}</string>
 								</array>
 							</dict>
 							<key>VerticalSplitView</key>
@@ -559,8 +564,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {885, 143}}</string>
-									<string>{{0, 143}, {885, 153}}</string>
+									<string>{{0, 0}, {885, 144}}</string>
+									<string>{{0, 144}, {885, 152}}</string>
 								</array>
 							</dict>
 						</dict>
@@ -593,12 +598,8 @@
 								<real>223</real>
 							</array>
 							<key>Frame</key>
-							<string>{{432, 0}, {453, 143}}</string>
-							<key>RubberWindowFrame</key>
-							<string>364 138 885 740 0 0 1440 878 </string>
+							<string>{{432, 0}, {453, 144}}</string>
 						</dict>
-						<key>RubberWindowFrame</key>
-						<string>364 138 885 740 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -621,14 +622,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F2C64A8710492EB600CBDC35</string>
+				<string>F2C64AE41049632C00CBDC35</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>F2C64A8810492EB600CBDC35</string>
-				<string>F2C64A8910492EB600CBDC35</string>
-				<string>F2C64A8A10492EB600CBDC35</string>
-				<string>F2C64A8B10492EB600CBDC35</string>
-				<string>F2415B581048A8EC00790A2F</string>
+				<string>F2C64AE51049632C00CBDC35</string>
+				<string>F2C64AE61049632C00CBDC35</string>
+				<string>F2C64AE71049632C00CBDC35</string>
+				<string>F2C64AE81049632C00CBDC35</string>
+				<string>F2C64AD41049605600CBDC35</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -661,7 +662,7 @@
 		<string>/Users/twig/Desktop/CVSudoku/Solver/Solver.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>364 138 885 740 0 0 1440 878 </string>
+	<string>552 138 885 740 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

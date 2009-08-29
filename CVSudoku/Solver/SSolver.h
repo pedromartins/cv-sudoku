@@ -30,6 +30,9 @@ private:
 	void block(int x, int y, int z);
 	void col(int x, int z);
 	void row(int y, int z);
+	void cow(int x, int y);
+	
+	std::ostream& pmask (std::ostream& out, int num);
 	
 public:
 	SSolver(Spoint* pts, int numpts){
@@ -39,6 +42,8 @@ public:
 		}
 	}
 	void addpoint(Spoint &point){newpoint(point);}
+	
+	int getpoint(int x, int y);
 	
 	bool solve(); 
 		

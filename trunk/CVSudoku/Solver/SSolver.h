@@ -28,9 +28,10 @@ private:
 	void newpoint(Spoint &point);
 	
 	void block(int x, int y, int z);
+	void blockrc(int blockx, int blocky, int z);
 	void col(int x, int z);
 	void row(int y, int z);
-	void cow(int x, int y);
+	void cow(int x, int y); // [row][col][cow] -> along the z-axis
 	
 	std::ostream& pmask (std::ostream& out, int num);
 	

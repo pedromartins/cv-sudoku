@@ -95,6 +95,28 @@ void SSolver::row(int y, int z){
 	}
 }
 
+void SSolver::cow(int x, int y){
+	bool foundspace = false;
+	Spoint point;
+	
+	// Look for one zero
+	for( int z = 0; z < 9; z++){
+		if(masks[x][y][z] == false){
+			if(!foundspace){
+				foundspace = true;
+				point = Spoint(x,y,z+1); // num = z +1
+			} else {
+				return;
+			}
+		}
+	}
+	
+	//has one been found
+	if(foundspace){
+		newpoint(point);
+	}
+}
+
 void SSolver::newpoint(Spoint &point){
 	const int x   = point.x;
 	const int y   = point.y;
@@ -151,6 +173,7 @@ bool SSolver::solve(){
 				block( blockx, blocky, k);
 				col(x, k);
 				row(y, k);
+				cow(blockx + k / 3, blocky + k % 3); // over all cows in the block
 			}
 			
 		//check blocks either side of it
@@ -161,19 +184,37 @@ bool SSolver::solve(){
 			}
 		}
 	
-	 
-	
-	
-	
 	std::cout << "pt = " << pt << ", newpts.size() = " << newpts.size() << std::endl;
 	
 	if (pt == 81){
 		return true;
 	} else if (newpts.size() > 81){
 		std::cout << "something gone wrong, more that 81 points" << std::endl; 
-	} 
+	} else if (pt < 81){
+		for( int k = 0; k < 9; k++ ){
+			pmask(std::cout, k+1) << std::endl;
+		}
+	}
 	
 	return false;
+}
+int SSolver::getpoint(int x, int y){
+	return real[x][y]; 
+}
+
+
+std::ostream& SSolver::pmask (std::ostream& out, int num){
+	out <<"mask " << num << ": " << std::endl;
+	
+	for(int i = 0; i < 9 ; i++){
+		for (int j = 0; j<9; j++) {
+			//Swapline, (transpose)
+			out << masks[j][i][num-1] << ' ';
+		}
+		out << std::endl;
+	}	
+	
+	return out;
 }
 
 std::ostream& operator<< (std::ostream& out, SSolver& s){

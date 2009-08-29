@@ -27,7 +27,7 @@ private:
 	
 	void newpoint(Spoint &point);
 	
-	void block(int x, int y, int z);
+	bool block(int x, int y, int z);
 	void blockrc(int blockx, int blocky, int z);
 	void col(int x, int z);
 	void row(int y, int z);

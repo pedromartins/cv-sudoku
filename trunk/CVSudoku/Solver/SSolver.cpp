@@ -93,7 +93,7 @@ void SSolver::blockrc(int blockx, int blocky, int z){
 		}
 	}
 	
-	 std:: cout << "lines in boxes is used, col = "<< col << ", row = " << row << std::endl;
+	 //std:: cout << "lines in boxes is used, col = "<< col << ", row = " << row << std::endl;
 }
 
 void SSolver::col(int x, int z){
@@ -140,7 +140,7 @@ void SSolver::row(int y, int z){
 	}
 }
 
-void SSolver::cow(int x, int y){
+bool SSolver::cow(int x, int y){
 	bool foundspace = false;
 	Spoint point;
 	
@@ -151,7 +151,7 @@ void SSolver::cow(int x, int y){
 				foundspace = true;
 				point = Spoint(x,y,z+1); // num = z +1
 			} else {
-				return;
+				return false;
 			}
 		}
 	}
@@ -160,7 +160,9 @@ void SSolver::cow(int x, int y){
 	if(foundspace){
 		newpoint(point);
 		//std::cout << "cow has actually found a number" << std::endl;
+		return true;
 	}
+	return false;
 }
 
 void SSolver::newpoint(Spoint &point){
@@ -203,7 +205,8 @@ void SSolver::newpoint(Spoint &point){
 }
 
 
-bool SSolver::solve(){		
+bool SSolver::solve(){	
+	while (pt < 81){
 		for (pt = 0; pt < newpts.size() && pt < 81; pt++) { // think while
 			
 			int x   = newpts[pt].x;
@@ -234,6 +237,25 @@ bool SSolver::solve(){
 					blockrc( (blockx + k)%3,  k            , num - 1);
 			}
 		}
+		
+		bool check = false;
+		
+	// Check for Orphan squares:
+		for(int i = 0; i < 9; i++){
+			for (int j = 0; j < 9; j++) {
+				if(cow(i,j)){
+					check = true;
+				}
+			}
+		}
+		
+		if (check) continue;
+		 
+		check = false;
+		
+		//Run out of tests
+		break;
+	}
 	
 	std::cout << "pt = " << pt << ", newpts.size() = " << newpts.size() << std::endl;
 	

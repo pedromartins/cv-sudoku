@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -268,14 +270,15 @@
 							<array>
 								<string>08FB7794FE84155DC02AAC07</string>
 								<string>08FB7795FE84155DC02AAC07</string>
+								<string>1C37FBAC04509CD000000102</string>
+								<string>F2C1E07A104AE9260032554A</string>
+								<string>1C37FAAC04509CD000000102</string>
 								<string>1C77FABC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>1</integer>
-									<integer>0</integer>
+									<integer>13</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -307,8 +310,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,17 +327,16 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F2C64B4E104974D700CBDC35</string>
+										<string>F2C1E099104AEAE40032554A</string>
 										<key>history</key>
 										<array>
 											<string>F20F2EEF1048AA600046FF67</string>
 											<string>F2C64A4110492B9200CBDC35</string>
 											<string>F2C64A4210492B9200CBDC35</string>
 											<string>F2C64A4310492B9200CBDC35</string>
-											<string>F2C64A5E10492CC200CBDC35</string>
-											<string>F2C64B43104974A100CBDC35</string>
-											<string>F2C64B44104974A100CBDC35</string>
-											<string>F2C64B4B104974D000CBDC35</string>
+											<string>F21E814F104AD85E00F09511</string>
+											<string>F21E816F104AD9AF00F09511</string>
+											<string>F2C1E096104AEAC80032554A</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -347,23 +347,6 @@
 											<string>F2B53D861048C8A9002CEFBF</string>
 											<string>F2C64A4510492B9200CBDC35</string>
 											<string>F2C64A4610492B9200CBDC35</string>
-											<string>F2C64A6310492CC200CBDC35</string>
-											<string>F2C64ADB104962CD00CBDC35</string>
-											<string>F2C64ADC104962CD00CBDC35</string>
-											<string>F2C64AF6104968EE00CBDC35</string>
-											<string>F2C64AF7104968EE00CBDC35</string>
-											<string>F2C64AF8104968EE00CBDC35</string>
-											<string>F2C64AF9104968EE00CBDC35</string>
-											<string>F2C64B0310496A4300CBDC35</string>
-											<string>F2C64B0410496A4300CBDC35</string>
-											<string>F2C64B0E10496F6100CBDC35</string>
-											<string>F2C64B0F10496F6100CBDC35</string>
-											<string>F2C64B32104972EE00CBDC35</string>
-											<string>F2C64B33104972EE00CBDC35</string>
-											<string>F2C64B46104974A100CBDC35</string>
-											<string>F2C64B47104974A100CBDC35</string>
-											<string>F2C64B48104974A100CBDC35</string>
-											<string>F2C64B49104974A100CBDC35</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -438,7 +421,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 31}, {603, 297}}</string>
+										<string>{{10, 27}, {678, 115}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXCVSModule</string>
@@ -486,11 +469,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F2C64AE11049632C00CBDC35</string>
+				<string>F2C1E06F104AE85F0032554A</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>F2C64AE21049632C00CBDC35</string>
+				<string>F2C1E070104AE85F0032554A</string>
 				<string>F2415B581048A8EC00790A2F</string>
-				<string>F2C64AE31049632C00CBDC35</string>
+				<string>F2C1E071104AE85F0032554A</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -637,14 +620,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F2C64AE41049632C00CBDC35</string>
+				<string>F2C1E072104AE85F0032554A</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>F2C64AE51049632C00CBDC35</string>
-				<string>F2C64AE61049632C00CBDC35</string>
-				<string>F2C64AE71049632C00CBDC35</string>
-				<string>F2C64AE81049632C00CBDC35</string>
-				<string>F2C64AD41049605600CBDC35</string>
+				<string>F2C1E073104AE85F0032554A</string>
+				<string>F2C1E074104AE85F0032554A</string>
+				<string>F2C1E075104AE85F0032554A</string>
+				<string>F2C1E076104AE85F0032554A</string>
+				<string>F2C1E067104AE7E10032554A</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
